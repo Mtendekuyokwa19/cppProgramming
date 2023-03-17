@@ -7,7 +7,7 @@ int yandhi(int y, int x){
 	
 	int sum;
 	sum= x+y;
-	
+	//yeah
 	
 	
 }
