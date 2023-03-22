@@ -32,6 +32,7 @@ int main (){
 		
 		
 		tax=0.3*a;
+		cout<<tax;
 	}
 	
 	
