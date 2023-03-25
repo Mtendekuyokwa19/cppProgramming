@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
 
+
+
+
+function yandhi(a,tax) {
+if (a<=100000){
+
+
+console.log("no tax")
+
+
+}
+
+else if (a>100001 && a<=1500000){
+
+ tax= 0.15 * a;
+ console.log(tax)
+
+}
+else if (a>=1500001 && a<=1000000){
+
+tax=0.25 * a;
+console.log (tax)
+
+}
+else {
+tax=0.3*a;
+console.log (tax)
+
+
+}
+
+}
+yandhi(20000000)
+
+
+  </script>
+  
+</body>
+</html>
